@@ -16,9 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from apps.home.views import home
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('apps.home.urls'), name=home)
+    path('', include('apps.home.urls'), name='home'),
+    path('map/', include('apps.map.urls'), name='map')
 ]
