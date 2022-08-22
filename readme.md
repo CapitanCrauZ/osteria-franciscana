@@ -2,12 +2,18 @@
 
 ### Index 
 - [Introduction](#Introduction)
+- [Applications](#Applications)
 - [Collaborators](#Collaborators)
 - [Methodology](#Methodology)
 
 ### Introduction 
 
 Pending...
+
+### Applications 
+
+- Home 
+- Map
 
 ### Methodology 
 
