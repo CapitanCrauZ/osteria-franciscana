@@ -1,2 +1,1 @@
-Portfolio Web-Aplication
-Developer: CapitanCrauz
+Portfolio | Progressive Web Application
