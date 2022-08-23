@@ -5,3 +5,34 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+.container{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.desc{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 800px){
+    
+    main{
+        height: auto;
+    }
+}
