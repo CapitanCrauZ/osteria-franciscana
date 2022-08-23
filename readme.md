@@ -1,6 +1,6 @@
 # Portfolio Osteria Fransiscana | Restaurant Progressive Web Application Project
 
-<img src="https://github.com/CapitanCrauZ/PORTFOLIO-OSTERIA-FRANSISCANA/blob/master/media/img/cover/lath.png" width="820" height="740">
+<img src="https://github.com/CapitanCrauZ/PORTFOLIO-OSTERIA-FRANSISCANA/blob/master/media/img/cover/lath.png" width="950" height="250">
 
 ### Index 
 - [Introduction](#Introduction)
