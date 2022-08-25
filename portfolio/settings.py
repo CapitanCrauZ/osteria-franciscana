@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_bootstrap_icons',
+    #'social_django',
+    #'pwa',
     'apps.home',
     'apps.map'
 ]
@@ -68,6 +70,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social_django.context_processors.backends', #Obtener Inicio de Sesión desde una red social...
+                'social_django.context_processors.login_redirect' #Implementar el login redirect
             ],
         },
     },
@@ -124,9 +128,31 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
 STATIC_ROOT = join(BASE_DIR, 'static', 'static_root')
 STATICFILES_DIRS = [join(BASE_DIR, 'static')]
+
+# Media Configuration
+MEDIA_URL = '/media/'
+MEDIA_ROOT = join(BASE_DIR, 'media')
+
+# Variables para controla el ingreso y salida (Rutas)
+
+LOGIN_URL = 'iniciarSesion'
+LOGIN_REDIRECT_URL = 'perfil'
+LOGOUT_URL = 'salir'
+LOGOUT_REDIRECT_URL = 'iniciarSesion'
+
+# Configuración para conectarse a la api de facebook
+
+    #SOCIAL_AUTH_FACEBOOK_KEY = ''
+    #SOCIAL_AUTH_FACEBOOK_SECRET = '
+    #SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'user_link']
+    #SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMAS = {'fields':'id, name,email,picture,link'}
+    #SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = {('name', 'name'), ('email':'email'), ('picture':'picture'), ('link':'user_link')}
+
+# Carga de archivo SERVICE WORKER
+
+    #PWA_SERCIE_WORKER_PATH = join(BASE_DIR, 'static', 'pwa', 'sw', 'serviceworker.js')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
