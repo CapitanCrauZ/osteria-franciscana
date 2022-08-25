@@ -1,0 +1,18 @@
+{
+    "name": "OsteriaFransiscana",
+    "short_name": "OsteriaFransiscana",
+    "description": "Osteria Osteria Fransiscana Progressive Web Application",
+    "start_url": "/",
+    "display": "standalone",
+    "scope": "/",
+    "orientation": "any",
+    "background_color": "#fffffff",
+    "theme_color" : "#7bb66160",
+    "status_bar": "default",
+    "purpose":  "any",
+    "icons": [
+        {"src": "/media/icon/logo.png", "sizes": "512x512"}
+    ],
+    "dir": "auto",
+    "lang": "es-cl"
+}
