@@ -1,0 +1,92 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bx.bxs-home-circle{
+    align-self: center;
+    font-size: 250px !important;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card-footer a{
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+
+form input{
+    width: 100%;
+    height: 100%;
+}
+
+.form-group{
+    padding-bottom: 10px;
+}
+
+@media (max-width: 600px){
+    
+    .card{
+        width: 100%;
+    }
+
+    .bx.bxs-home-circle{
+        align-self: center;
+        font-size: 200px !important;
+    }
+}
+
+
+@media (max-width: 400px){
+    .bx.bxs-home-circle{
+        align-self: center;
+        font-size: 150px !important;
+    }
+}
+

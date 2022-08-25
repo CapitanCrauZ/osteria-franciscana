@@ -29,7 +29,7 @@ self.addEventListener('fetcg', function(event){
 
 self.addEventListener('fetch', function(event){
     event.respondWith(
-        fetch(evento.request)
+        fetch(event.request)
         .then((result)=>{
             return caches.open(CACHE_NAME)
             .then(function(c){

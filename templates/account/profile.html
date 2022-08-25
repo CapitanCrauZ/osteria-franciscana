@@ -1,0 +1,17 @@
+{% extends 'base/index.html' %}
+
+{% block css %}
+<link rel="stylesheet" href="../../static/account/profile/css/style.css">
+{% endblock css %}
+
+{% block title %}
+<title>Osteria | Profile</title>
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <div class="card">
+        <h1>Welcome {{ user.username }}</h1>
+    </div>
+</div>
+{% endblock content %}

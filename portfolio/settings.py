@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'social_django',
     'pwa',
     'apps.home',
-    'apps.map'
+    'apps.map',
+    'apps.account'
 ]
 
 MIDDLEWARE = [
@@ -70,8 +71,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'social_django.context_processors.backends', #Obtener Inicio de Sesión desde una red social...
-                'social_django.context_processors.login_redirect' #Implementar el login redirect
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -137,18 +138,25 @@ MEDIA_ROOT = join(BASE_DIR, 'media')
 
 # Variables para controla el ingreso y salida (Rutas)
 
-LOGIN_URL = 'iniciarSesion'
-LOGIN_REDIRECT_URL = 'perfil'
-LOGOUT_URL = 'salir'
-LOGOUT_REDIRECT_URL = 'iniciarSesion'
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'profile'
+LOGOUT_URL = 'logout'
+LOGOUT_REDIRECT_URL = 'log_in'
 
 # Configuración para conectarse a la api de facebook
 
-    #SOCIAL_AUTH_FACEBOOK_KEY = ''
-    #SOCIAL_AUTH_FACEBOOK_SECRET = '
-    #SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'user_link']
-    #SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMAS = {'fields':'id, name,email,picture,link'}
-    #SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = {('name', 'name'), ('email':'email'), ('picture':'picture'), ('link':'user_link')}
+SOCIAL_AUTH_FACEBOOK_KEY = '909782106093110'
+SOCIAL_AUTH_FACEBOOK_SECRET = '94a04808018947791175df515c11955e'
+SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'user_link']
+SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
+    'fields': 'id, name, email, picture, link'
+}
+SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [
+    ('name', 'name'), 
+    ('email', 'email'), 
+    ('picture', 'picture'), 
+    ('link', 'user_link')
+]
 
 # Carga de archivo SERVICE WORKER
 

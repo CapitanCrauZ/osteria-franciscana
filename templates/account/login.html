@@ -1,0 +1,38 @@
+{% extends 'base/index.html' %}
+
+{% block css %}
+<link rel="stylesheet" href="../../static/account/login/css/style.css">
+{% endblock css %}
+
+{% block title %}
+<title>Osteria | Login</title>
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <i class='bx bxs-user'></i>
+        </div>
+        <div class="card-body">
+            <form action="" method="post">
+                {% csrf_token %}
+                {% for field in form %}
+                    <div class="form-group">
+                        <label for="{{ field.id_for_label }}">
+                            {{ field.label }}
+                        </label>
+                        <div class="form-control">
+                            {{ field }}
+                        </div>
+                    </div>
+                {% endfor %}
+                <button type="submit" class="btn btn-primary">Sign-in</button>
+            </form>
+        </div>
+        <div class="card-footer">
+            <a href="/register/">Don't have an account? register here</a>
+        </div>
+    </div>
+</div>
+{% endblock content %}

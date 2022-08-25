@@ -9,6 +9,10 @@ header{
     background-color: #7bb66160;
 }
 
+header a{
+    text-decoration: none;
+}
+
 .bx.bxs-baguette.bx-md{
     padding-left: 10px;
 }
