@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_bootstrap_icons',
-    #'social_django',
-    #'pwa',
+    'social_django',
+    'pwa',
     'apps.home',
     'apps.map'
 ]
@@ -152,7 +152,7 @@ LOGOUT_REDIRECT_URL = 'iniciarSesion'
 
 # Carga de archivo SERVICE WORKER
 
-    #PWA_SERCIE_WORKER_PATH = join(BASE_DIR, 'static', 'pwa', 'sw', 'serviceworker.js')
+PWA_SERVICE_WORKER_PATH = join(BASE_DIR, 'static', 'pwa', 'sw', 'serviceworker.js')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
