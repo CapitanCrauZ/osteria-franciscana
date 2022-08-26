@@ -71,6 +71,10 @@ form{
     height: 100%;
 }
 
+form .btn.btn-primary{
+    margin: 3px;
+}
+
 @media (max-width: 1000px){
     
     .card{
@@ -79,6 +83,10 @@ form{
 }
 
 @media (max-width: 600px){
+
+    main{
+        height: auto;
+    }
     
     .card{
         width: 100%;
@@ -92,10 +100,6 @@ form{
 
 
 @media (max-width: 400px){
-
-    main{
-        height: auto;
-    }
 
     .bx.bxs-user{
         align-self: center;

@@ -71,6 +71,10 @@ form input{
     padding: 0 !important;
 }
 
+form .btn.btn-success{
+    margin: 3px;
+}
+
 @media (max-width: 600px){
 
     main{
