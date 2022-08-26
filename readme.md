@@ -12,17 +12,19 @@
 
 ### Introduction 
 
-Pending...
-
 ---
+
+Pending...
 
 ### Methodology 
 
-- Agile Scrum
-
 ---
 
+- Agile Scrum
+
 ### Tabs
+
+---
 
 > Home
 
@@ -40,9 +42,10 @@ Pending...
 
 > Register
 
+### Requirements
+
 ---
 
-### Requirements
 Project is created with:
 
 * Python==3.10.6
@@ -63,15 +66,15 @@ Project is created with:
 * social-auth-app-django==5.0.0
 * social-auth-core==4.3.0
 
----
-
 ### License
+
+---
 
 * GPL-3.0
 
----
-
 ### Collaborators
+
+---
 
 - Paolo Ríos 
 - Yerko Droguett
