@@ -2,7 +2,7 @@
 
 <img src="https://github.com/CapitanCrauZ/PORTFOLIO-OSTERIA-FRANSISCANA/blob/master/media/images/cover/lath.png" width="100%" height="100%">
 
-### Index 
+## Index 
 - [Introduction](#Introduction)
 - [Methodology](#Methodology)
 - [Tabs](#Tabs)
@@ -10,20 +10,20 @@
 - [License](#License)
 - [Collaborators](#Collaborators)
 
-### Introduction 
+## Introduction 
 
 ---
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quae magnam labore blanditiis ratione laborum ipsam. Soluta praesentium asperiores reiciendis sequi, est quisquam quas ut aut facilis ipsa voluptates accusamus!
 Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit minima temporibus eius. Sed repellendus ea odio, nemo fugiat aliquam aliquid debitis, aperiam voluptatibus nostrum animi! Quibusdam suscipit hic quasi!
 
-### Methodology 
-
-- Agile Scrum
-
-### Tabs
+## Methodology 
 
 ---
+- Agile Scrum
 
+## Tabs
+
+---
 > Home
 
 > Menu
@@ -40,10 +40,9 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 
 > Register
 
-### Requirements
+## Requirements
 
 ---
-
 Project is created with:
 
 * Python==3.10.6
@@ -64,16 +63,14 @@ Project is created with:
 * social-auth-app-django==5.0.0
 * social-auth-core==4.3.0
 
-### License
+## License
 
 ---
-
 * GPL-3.0
 
-### Collaborators
+## Collaborators
 
 ---
-
 - Paolo Ríos 
 - Yerko Droguett
 - Cristían Fuentes
