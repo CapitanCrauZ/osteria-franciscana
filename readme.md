@@ -18,8 +18,6 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 
 ### Methodology 
 
----
-
 - Agile Scrum
 
 ### Tabs
