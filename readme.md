@@ -5,8 +5,9 @@
 ### Index 
 - [Introduction](#Introduction)
 - [Applications](#Applications)
-- [Collaborators](#Collaborators)
 - [Methodology](#Methodology)
+- [License](#License)
+- [Collaborators](#Collaborators)
 
 ### Introduction 
 
@@ -16,10 +17,15 @@ Pending...
 
 - Home 
 - Map
+- Account
 
 ### Methodology 
 
 - Agile Scrum
+
+### License
+
+- GPL-3.0
 
 ### Collaborators
 
