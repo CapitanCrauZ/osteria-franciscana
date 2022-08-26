@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quae magna
 Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit minima temporibus eius. Sed repellendus ea odio, nemo fugiat aliquam aliquid debitis, aperiam voluptatibus nostrum animi! Quibusdam suscipit hic quasi!
 
 ## Methodology 
-- Agile Scrum
+**Agile Scrum**
 
 ## Tabs
 > Home
