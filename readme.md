@@ -28,12 +28,19 @@ Pending...
 ### Tabs
 
 > Home
+
 > Menu
+
 > Home
+
 > Reserves
+
 > Map
+
 > About
+
 > Login
+
 > Register
 
 ### Requirements
@@ -58,7 +65,7 @@ Pending...
 
 ### License
 
-> GPL-3.0
+- GPL-3.0
 
 ### Collaborators
 
