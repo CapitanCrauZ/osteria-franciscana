@@ -63,6 +63,7 @@ form{
 
 .form-control{
     margin: 3px;
+    padding: 0 !important;
 }
 
 .form-control input{

@@ -68,6 +68,7 @@ form input{
 
 .form-control{
     margin: 3px;
+    padding: 0 !important;
 }
 
 @media (max-width: 600px){
