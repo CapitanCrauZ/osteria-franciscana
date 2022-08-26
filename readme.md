@@ -6,6 +6,7 @@
 - [Introduction](#Introduction)
 - [Applications](#Applications)
 - [Methodology](#Methodology)
+- [Tabs](#Tabs)
 - [Requirements](#Requirements)
 - [License](#License)
 - [Collaborators](#Collaborators)
@@ -16,13 +17,24 @@ Pending...
 
 ### Applications 
 
-- Home 
-- Map
-- Account
+> Home 
+> Map
+> Account
 
 ### Methodology 
 
 - Agile Scrum
+
+### Tabs
+
+> Home
+> Menu
+> Home
+> Reserves
+> Map
+> About
+> Login
+> Register
 
 ### Requirements
 
