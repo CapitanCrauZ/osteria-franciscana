@@ -4,7 +4,6 @@
 
 ### Index 
 - [Introduction](#Introduction)
-- [Applications](#Applications)
 - [Methodology](#Methodology)
 - [Tabs](#Tabs)
 - [Requirements](#Requirements)
@@ -14,14 +13,6 @@
 ### Introduction 
 
 Pending...
-
-### Applications 
-
-> Home 
-
-> Map
-
-> Account
 
 ### Methodology 
 
@@ -46,24 +37,25 @@ Pending...
 > Register
 
 ### Requirements
+Project is created with:
 
-- decorator==5.1.1
-- Django==4.0.6
-- django-bootstrap-icons==0.8.1
-- django-pwa==1.0.10
-- geocoder==1.38.1
-- joblib==1.1.0
-- mysqlclient==2.1.1
-- numpy==1.23.2
-- oauthlib==3.2.0
-- pandas==1.4.3
-- Python=3.10.6
-- python-dateutil==2.8.2
-- python3-openid==3.2.0
-- requests==2.28.1
-- requests-oauthlib==1.3.1
-- social-auth-app-django==5.0.0
-- social-auth-core==4.3.0
+* Python==3.10.6
+* Django==4.0.6
+* django-bootstrap-icons==0.8.1
+* django-pwa==1.0.10
+* geocoder==1.38.1
+* joblib==1.1.0
+* mysqlclient==2.1.1
+* numpy==1.23.2
+* oauthlib==3.2.0
+* pandas==1.4.3
+* decorator==5.1.1
+* python-dateutil==2.8.2
+* python3-openid==3.2.0
+* requests==2.28.1
+* requests-oauthlib==1.3.1
+* social-auth-app-django==5.0.0
+* social-auth-core==4.3.0
 
 ### License
 
