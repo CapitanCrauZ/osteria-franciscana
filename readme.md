@@ -59,8 +59,10 @@ Project is created with:
 
 ### License
 
-- GPL-3.0
+```
+GPL-3.0
 
+```
 ### Collaborators
 
 - Paolo Ríos 
