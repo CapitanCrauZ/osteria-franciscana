@@ -36,23 +36,25 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 ## Requirements
 Project is created with:
 
-* Python==3.10.6
-* Django==4.0.6
-* django-bootstrap-icons==0.8.1
-* django-pwa==1.0.10
-* geocoder==1.38.1
-* joblib==1.1.0
-* mysqlclient==2.1.1
-* numpy==1.23.2
-* oauthlib==3.2.0
-* pandas==1.4.3
-* decorator==5.1.1
-* python-dateutil==2.8.2
-* python3-openid==3.2.0
-* requests==2.28.1
-* requests-oauthlib==1.3.1
-* social-auth-app-django==5.0.0
-* social-auth-core==4.3.0
+| Technology | Version |
+| ------------- | ------------- |
+| Python  | 3.10.6  |
+| Python-dateutil | 2.8.2 |
+| Python3-openid | 3.2.0 |
+| Django  | 4.0.6  |
+| Django-bootstrap-icons  | 0.8.1 |
+| Django-pwa  | 1.0.10 |
+| Geocoder | 1.38.1 |
+| Joblib | 1.1.0 |
+| Mysqlclient | 2.1.1 |
+| Numpy | 1.23.2 |
+| Oauthlib | 3.2.0 |
+| Pandas | 1.4.3 |
+| Decorator | 5.1.1 |
+| Requests | 2.28.1 |
+| Requests-oauthlib | 1.3.1 |
+| Social-auth-app-django | 5.0.0 |
+| Social-auth-core | 4.3.0 |
 
 ## Collaborators
 - Paolo Ríos 
