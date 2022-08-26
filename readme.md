@@ -7,7 +7,6 @@
 - [Methodology](#Methodology)
 - [Tabs](#Tabs)
 - [Requirements](#Requirements)
-- [License](#License)
 - [Collaborators](#Collaborators)
 
 ## Introduction 
@@ -15,13 +14,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quae magna
 Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit minima temporibus eius. Sed repellendus ea odio, nemo fugiat aliquam aliquid debitis, aperiam voluptatibus nostrum animi! Quibusdam suscipit hic quasi!
 
 ## Methodology 
-
----
 - Agile Scrum
 
 ## Tabs
-
----
 > Home
 
 > Menu
@@ -39,8 +34,6 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 > Register
 
 ## Requirements
-
----
 Project is created with:
 
 * Python==3.10.6
@@ -61,14 +54,7 @@ Project is created with:
 * social-auth-app-django==5.0.0
 * social-auth-core==4.3.0
 
-## License
-
----
-* GPL-3.0
-
 ## Collaborators
-
----
 - Paolo Ríos 
 - Yerko Droguett
 - Cristían Fuentes
