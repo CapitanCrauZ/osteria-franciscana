@@ -14,9 +14,13 @@
 
 Pending...
 
+---
+
 ### Methodology 
 
 - Agile Scrum
+
+---
 
 ### Tabs
 
@@ -35,6 +39,8 @@ Pending...
 > Login
 
 > Register
+
+---
 
 ### Requirements
 Project is created with:
@@ -57,12 +63,14 @@ Project is created with:
 * social-auth-app-django==5.0.0
 * social-auth-core==4.3.0
 
+---
+
 ### License
 
-```
-GPL-3.0
+* GPL-3.0
 
-```
+---
+
 ### Collaborators
 
 - Paolo Ríos 
