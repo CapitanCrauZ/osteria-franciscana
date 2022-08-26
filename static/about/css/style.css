@@ -8,7 +8,7 @@ main{
 
 .container{
     display: flex;
-    padding: 50px;
+    padding: 20px;
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -16,16 +16,22 @@ main{
     align-items: center;
 }
 
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding-top: 20px;
 }
 
 .desc{
     display: flex;
-    padding: 30px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
 }
