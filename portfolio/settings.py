@@ -58,6 +58,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'portfolio.urls'
 
+AUTHENTICATION_BACKENDS = [
+    'social_core.backends.facebook.FacebookOAuth2',
+    'allauth.account.auth_backends.AuthenticationBackend',
+    'django.contrib.auth.backends.ModelBackend',
+    
+]
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -138,25 +145,26 @@ MEDIA_ROOT = join(BASE_DIR, 'media')
 
 # Variables para controla el ingreso y salida (Rutas)
 
-LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = 'profile'
+LOGIN_URL = '/'
+LOGIN_REDIRECT_URL = '/'
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'log_in'
 
 # Configuración para conectarse a la api de facebook
 
-SOCIAL_AUTH_FACEBOOK_KEY = '909782106093110'
-SOCIAL_AUTH_FACEBOOK_SECRET = '94a04808018947791175df515c11955e'
-SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'user_link']
-SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
-    'fields': 'id, name, email, picture, link'
-}
-SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [
-    ('name', 'name'), 
-    ('email', 'email'), 
-    ('picture', 'picture'), 
-    ('link', 'user_link')
-]
+SOCIAL_AUTH_FACEBOOK_KEY = '448491430669069'
+SOCIAL_AUTH_FACEBOOK_SECRET = '931e5ccc491f265e7ad95706cd33366c'
+
+# SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'user_link']
+# SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
+#     'fields': 'id, name, email, picture, link'
+# }
+# SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [
+#     ('name', 'name'), 
+#     ('email', 'email'), 
+#     ('picture', 'picture'), 
+#     ('link', 'user_link')
+# ]
 
 # Carga de archivo SERVICE WORKER
 
