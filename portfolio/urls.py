@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', include('apps.home.urls'), name='home'),
     path('map/', include('apps.map.urls'), name='mapping'),
-    path('', include('apps.account.urls'), name='account'),
+    path('', include('apps.client.urls'), name='client'),
     path('', include('pwa.urls'))
 ]   
 if settings.DEBUG:
