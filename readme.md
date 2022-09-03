@@ -2,21 +2,33 @@
 
 <img src="https://github.com/CapitanCrauZ/PORTFOLIO-OSTERIA-FRANSISCANA/blob/master/media/images/cover/lath.png" width="100%" height="100%">
 
-## Index 
+### Index 
 - [Introduction](#Introduction)
 - [Methodology](#Methodology)
+- [Mockups](#Mockups)
 - [Tabs](#Tabs)
 - [Requirements](#Requirements)
 - [Collaborators](#Collaborators)
 
-## Introduction 
+### Introduction 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quae magnam labore blanditiis ratione laborum ipsam. Soluta praesentium asperiores reiciendis sequi, est quisquam quas ut aut facilis ipsa voluptates accusamus!
 Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit minima temporibus eius. Sed repellendus ea odio, nemo fugiat aliquam aliquid debitis, aperiam voluptatibus nostrum animi! Quibusdam suscipit hic quasi!
 
-## Methodology 
+### Methodology 
 **Agile Scrum**
 
-## Tabs
+### Mockups
+> Login
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/login.png" width="100%" height="100%">
+
+> Register
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/register.png" width="100%" height="100%">
+
+> Order Form
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/order-form.png" width="100%" height="100%">
+
+
+### Tabs
 > Home
 
 > Menu
@@ -33,7 +45,7 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 
 > Register
 
-## Requirements
+### Requirements
 Project is created with:
 
 | Technology | Version |
@@ -56,7 +68,7 @@ Project is created with:
 | Social-auth-app-django | 5.0.0 |
 | Social-auth-core | 4.3.0 |
 
-## Collaborators
+### Collaborators
 - Paolo Ríos 
 - Yerko Droguett
 - Cristían Fuentes
