@@ -1,4 +1,4 @@
-# Osteria Franciscana | Progressive Web Application Project
+# Osteria Franciscana | Progressive Web Application
 
 <img src="https://github.com/CapitanCrauZ/PORTFOLIO-OSTERIA-FRANSISCANA/blob/master/media/images/cover/lath.png" width="100%" height="100%">
 
