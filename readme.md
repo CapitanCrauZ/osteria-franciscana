@@ -7,6 +7,7 @@
 - [Methodology](#Methodology)
 - [Mockups](#Mockups)
 - [Tabs](#Tabs)
+- [Diagrams](#Diagrams)
 - [Requirements](#Requirements)
 - [Collaborators](#Collaborators)
 
