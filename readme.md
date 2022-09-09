@@ -33,8 +33,6 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 
 > Menu
 
-> Home
-
 > Reserves
 
 > Map
@@ -44,6 +42,15 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 > Login
 
 > Register
+
+### Diagrams
+Systen structured
+
+##### Use Cases
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/docs/diagram/use-case/Use%20Case%20Diagram.png" width="100%" height="100%">
+
+##### Packages
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/docs/diagram/packages/Package%20Diagram.png" width="100%" height="100%">
 
 ### Requirements
 Project is created with:
