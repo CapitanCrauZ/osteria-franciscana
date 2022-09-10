@@ -20,3 +20,7 @@ header a{
 .col-md-3.text-end{
     padding-right: 10px;
 }
+
+.mb-4{
+    margin-bottom: 0 !important;
+}
