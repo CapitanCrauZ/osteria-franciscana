@@ -7,6 +7,7 @@
 
 header{
     background-color: #7bb66160;
+    justify-content: center;
 }
 
 header a{
@@ -21,6 +22,28 @@ header a{
     padding-right: 10px;
 }
 
+<<<<<<< HEAD
 .mb-4{
     margin-bottom: 0 !important;
 }
+=======
+@media (max-width: 770px){
+
+    header{
+        justify-content: space-evenly;
+    }
+
+    .collapse:not(.show){
+        display: none;
+    }
+
+    .navbar-toggler::after .collaspe.show{
+        display: block !important;
+    }
+
+   .bx.bxs-grid-alt.bx-md{
+        padding-left: 0px;
+   }
+
+}
+>>>>>>> 1436b3bd2d0015ba470f819570bf6a34a12c96ec
