@@ -78,7 +78,7 @@ form .btn.btn-success{
 @media (max-width: 600px){
 
     main{
-        height: auto;
+        height: 100vh;
     }
     
     .card{

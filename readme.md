@@ -7,6 +7,7 @@
 - [Methodology](#Methodology)
 - [Mockups](#Mockups)
 - [Tabs](#Tabs)
+- [Responsive](#Responsive)
 - [Diagrams](#Diagrams)
 - [Requirements](#Requirements)
 - [Collaborators](#Collaborators)
@@ -43,6 +44,12 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 > Login
 
 > Register
+
+### Responsive
+Views of this web page have been created in a responsive way and display correctly on desktop and mobile devices
+
+##### Capture: Register
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mobile/mob-register.png" width="50%" height="50%">
 
 ### Diagrams
 Systen structured
