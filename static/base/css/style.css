@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: default;
+    src: url();
+    font-display: swap;
+}
+
 header{
     background-color: #7bb66160;
     justify-content: center;
@@ -22,11 +28,10 @@ header a{
     padding-right: 10px;
 }
 
-<<<<<<< HEAD
 .mb-4{
     margin-bottom: 0 !important;
 }
-=======
+
 @media (max-width: 770px){
 
     header{
@@ -46,4 +51,12 @@ header a{
    }
 
 }
->>>>>>> 1436b3bd2d0015ba470f819570bf6a34a12c96ec
+
+@media (max-width: 210px){
+    .col-md-3.text-end{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
