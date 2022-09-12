@@ -26,9 +26,26 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 > Register
 <img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/register.png" width="100%" height="100%">
 
+> Main
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/main.png" width="100%" height="100%">
+
+> Menu
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/menu.png" width="100%" height="100%">
+
+> Reserves
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/reserves.png" width="100%" height="100%">
+
+> Shopping
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/shopping.png" width="100%" height="100%">
+
 > Order Form
 <img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/order-form.png" width="100%" height="100%">
 
+> About Us
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/about-us.png" width="100%" height="100%">
+
+> Map
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/map.png" width="100%" height="100%">
 
 ### Tabs
 > Home
