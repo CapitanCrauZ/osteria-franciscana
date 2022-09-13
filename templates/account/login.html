@@ -32,9 +32,11 @@
         </div>
         <div class="card-footer">
             <a href="/register/">Forgot your password? recover here</a>
-            <a href="{% url 'social:begin' 'facebook' %}">Ingress with facebook</a>
+            <a href="{% url 'social:begin' 'facebook' %}" class="disabled disabled-link">
+                <del>Ingress with facebook</del>
+            </a>
         </div>
     </div>
-    <script src="../../static/facebook/js/script.js"></script>
+    <!-- <script src="../../static/facebook/js/script.js"></script> -->
 </div>
 {% endblock content %}
