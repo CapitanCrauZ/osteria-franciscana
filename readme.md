@@ -65,8 +65,14 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 ### Responsive
 Views of this web page have been created in a responsive way and display correctly on desktop and mobile devices
 
-##### Capture: Register
-<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mobile/mob-register.png" width="50%" height="50%">
+##### Capture: Login
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mobile/mob-login.png" width="50%" height="50%">
+
+##### Capture: About us
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mobile/mob-about us.png" width="50%" height="50%">
+
+##### Capture: Map
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mobile/mob-map.png" width="50%" height="50%">
 
 ### Diagrams
 Systen structured
