@@ -85,7 +85,7 @@ Systen structured
 <img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/docs/diagram/use-case/Use%20Case%20Diagram.png" width="100%" height="100%">
 
 ##### Classes
-<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/docs/diagram/use-case/Class%20Diagram.png" width="100%" height="100%">
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/docs/diagram/class/Class%20Diagram.png" width="100%" height="100%">
 
 ##### Packages
 <img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/docs/diagram/packages/Package%20Diagram.png" width="100%" height="100%">
