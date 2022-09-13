@@ -35,8 +35,8 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 > Reserves
 <img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/reserves.png" width="100%" height="100%">
 
-> Shopping
-<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/shopping.png" width="100%" height="100%">
+> Purchases
+<img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/purchases.png" width="100%" height="100%">
 
 > Order Form
 <img src="https://github.com/CapitanCrauZ/OSTERIA-FRANCISCANA/blob/master/media/images/mock/order-form.png" width="100%" height="100%">
@@ -51,6 +51,10 @@ Mollitia ab deleniti, minus similique consectetur ut, impedit eligendi velit min
 > Home
 
 > Menu
+
+> Purchases
+
+> Order
 
 > Reserves
 
