@@ -32,19 +32,86 @@ header nav{
     margin: 5px;
 }
 
+.navbar{
+    padding: 1.5 !important;
+    --bs-navbar-toggler-padding-y: 0.12rem !important;
+    --bs-navbar-toggler-padding-x: 0rem !important;   
+}
+
 .mb-4{
     margin-bottom: 0 !important;
+}
+
+.container-fluid{
+    --bs-gutter-x: 0rem !important;
 }
 
 .navbar-toggler{
     border: none;
 }
 
+#btnDropper{
+    color: black;
+}
+
 .collapse.navbar-collapse{
     justify-content: center;
 }
 
+#tabs{
+    width: 80%;
+    justify-content: center;
+    padding-left: 230px;
+}
+
+#logo{
+    width: 10%;
+    justify-content: flex-start;
+    margin-right: 90px;
+}
+
+.col-md-3.text-end {
+    display: flex;
+    justify-content: flex-end;
+    width: 18% !important;
+}
+
+@media (max-width: 1302px){
+    #tabs{
+        padding-left: 165px !important;
+    }
+}
+
+@media (max-width: 1052px){
+    #tabs{
+        padding-left: 110px !important;
+    }
+}
+
+@media (max-width: 992px){
+    #tabs{
+        padding-left: 5px !important;
+    }
+    .col-md-3.text-end {
+        flex-basis: fit-content;
+        /* display: block; */
+    }
+
+    .navbar-nav.mb-2.mb-lg-0.logo{
+        display: none !important;
+    }
+}
+
 @media (min-width: 992px){
+
+    .col-md-3.text-end {
+        width: 25% !important;
+    }
+
+    .navbar{
+        --bs-navbar-toggler-padding-y: 0.12rem !important;
+    }
+
     .navbar-expand-lg .navbar-nav {
         flex-direction: row !important;
     }
@@ -57,41 +124,12 @@ header nav{
     }
 }
 
-#tabs{
-    width: 80%;
-    justify-content: center;
-}
-
-#logo{
-    width: 10%;
-    justify-content: flex-start;
-    margin-right: 75px;
-}
-
-.col-md-3.text-end {
-    display: flex;
-    justify-content: flex-end;
-    width: 18% !important;
-}
-
-@media (max-width: 992px){
-    .col-md-3.text-end {
-        width: 25% !important;
-    }
-
-    #logo{
-        display: none;
-    }
-}
-
 @media (max-width: 768px){
-    .col-md-3.text-end {
-        width: 65% !important;
+
+    .navbar{
+        padding: 1.5 !important;
+        --bs-navbar-padding-y: 0.3rem;
     }
-}
-
-@media (max-width: 580px){
-
 }
 
 @media (max-width: 210px){
