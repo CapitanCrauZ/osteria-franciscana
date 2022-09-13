@@ -36,7 +36,6 @@ header nav{
     margin-bottom: 0 !important;
 }
 
-<<<<<<< HEAD
 .navbar-toggler{
     border: none;
 }
@@ -52,12 +51,11 @@ header nav{
 }
 
 @media (max-width: 770px){
-=======
 .collapse.navbar-collapse{
     justify-content: space-around;
     width: 80%;
+    }
 }
->>>>>>> a47e9a0dc870c34be338254c8f4348af35ae18ef
 
 #tabs{
     width: 80%;
