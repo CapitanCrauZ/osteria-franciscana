@@ -16,6 +16,13 @@ header{
     justify-content: center;
 }
 
+header nav{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
 header a{
     text-decoration: none;
 }
@@ -30,6 +37,20 @@ header a{
 
 .mb-4{
     margin-bottom: 0 !important;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.collapse.navbar-collapse{
+    justify-content: center;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row !important;
+    }
 }
 
 @media (max-width: 770px){
