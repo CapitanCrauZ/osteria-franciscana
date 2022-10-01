@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import MapView, base
+from . import views
 
 urlpatterns = [
-    path('', MapView.as_view(), name='mapping'),
-    path('', base, name='base')
+    path('', views.MapView.as_view(), name='mapping'),
+    path('', views.base, name='base')
 ]

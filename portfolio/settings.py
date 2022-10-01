@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'pwa',
     'apps.home',
     'apps.map',
-    'apps.client'
+    'apps.client',
+    'apps.product'
 ]
 
 MIDDLEWARE = [

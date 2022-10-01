@@ -1,10 +1,10 @@
 from django.urls import path, include
-from .views import log_in, log_out, register, profile
+from . import views
 
 urlpatterns = [
-    path('', log_in, name='login'),
-    path('logout/', log_out, name='logout'),
-    path('register/', register, name='register'),
-    path('profile/', profile, name='profile'),
+    path('', views.log_in, name='login'),
+    path('logout/', views.log_out, name='logout'),
+    path('register/', views.register, name='register'),
+    path('profile/', views.profile, name='profile'),
     path('social-auth/', include('social_django.urls', namespace='social')),
 ]

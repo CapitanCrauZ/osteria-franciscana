@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+section a{
+    display: contents;
+    text-decoration: none;
+    width: 100%;
+    margin: 10px;
+}
