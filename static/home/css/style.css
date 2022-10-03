@@ -67,7 +67,7 @@ main{
 @media (max-width: 1400px){
 
     main{
-        height: 140vh;
+        height: auto;
     }
 
     .carousel.slide{
@@ -79,7 +79,7 @@ main{
 
     main{
         align-items: flex-start !important;
-        height: 140vh;
+        height: auto;
     }
 
     .carousel.slide{
@@ -95,6 +95,6 @@ main{
 
 @media (max-width: 330px){
     .card{
-        width: 10rem;
+        width: 15rem;
     }
 }
