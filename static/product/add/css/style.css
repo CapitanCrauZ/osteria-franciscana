@@ -20,3 +20,7 @@ section a{
     width: 100%;
     margin: 10px;
 }
+
+.btn.btn-primary.add-product{
+    color: #ffffff;
+}

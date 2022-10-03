@@ -10,10 +10,10 @@
 
 {% block content %}
 <div class="row" style="display: flex; justify-content: center;">
-    <h1> Productos</h1>
+    <h1> Products</h1>
 </div>
 <div class="container ">
-    {% if productos %}
+    {% if products %}
     <div class="row">
         <table class = "table table-hover table-sm table-responsive">
             <thead>
@@ -31,7 +31,7 @@
                 {% for product in products %}
                 <tr id="{{product.id}}">
                     <td>
-                        <img id="image_db" src="/media/{{product.image}}">
+                        <img id="image_db" src="/media/{{product.image}}" width="20px" height="20px">
                     </td>
                     <td>{{ product.name }}</td>
                     <td>{{ product.description }}</td>
@@ -57,7 +57,11 @@
         </table>
     </div>
     {% else %}
-    <a href="{% url 'add_product'%}">Add Product</a>
+    <a href="{% url 'add_product'%}">
+        <button class="btn btn-primary add-product">
+            Add
+        </button>
+    </a>
     <p>No products available</p>
     {% endif %}
 </div>

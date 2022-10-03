@@ -86,14 +86,14 @@ form .btn.btn-primary{
     .card{
         width: 80%;
     }
-}
-
-@media (max-width: 600px){
 
     main{
         height: 100vh;
     }
-    
+}
+
+@media (max-width: 600px){
+
     .card{
         width: 100%;
     }
